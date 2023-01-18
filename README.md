@@ -2,7 +2,7 @@
 
 ### Background
 
-Adam Chester ([@_xpn_](https://twitter.com/_xpn_)) wrote an article called ["Exploring Mimikatz - Part 1 - WDigest"](https://blog.xpnsec.com/exploring- mimikatz-part-1/) about memory patching to enable UseLogonCredential and make Wdigest cache cleartext credentials intrigued me.
+Adam Chester ([@\_xpn\_](https://twitter.com/_xpn_)) wrote an article called "[Exploring Mimikatz - Part 1 - WDigest](https://blog.xpnsec.com/exploring-mimikatz-part-1/)" about memory patching to enable UseLogonCredential and make Wdigest cache cleartext credentials intrigued me.
 
 The wdigest.dll module loaded by the LSASS process has two interesting global variables: `g_fParameter_useLogonCredential` and `g_IsCredGuardEnabled`, their role is self-evident from the name alone, the former is used to determine whether the clear text password should be stored in memory , the latter holds the state of the Windows Defender Credential Guard within the module, and Wdigest plaintext password caching can be enabled on systems with Credential Guard by patching the values of these two global variables in memory.
 
