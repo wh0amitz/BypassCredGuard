@@ -1,0 +1,12 @@
+﻿  BypassCredGuard.cpp
+  lsa.cpp
+C:\Users\whoami\source\repos\BypassCredGuard\BypassCredGuard\lsa.cpp(43,11): warning C4477: “wprintf”: 格式字符串“%016llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“LPVOID”
+C:\Users\whoami\source\repos\BypassCredGuard\BypassCredGuard\lsa.cpp(47,12): warning C4477: “wprintf”: 格式字符串“%016llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“PWORD”
+C:\Users\whoami\source\repos\BypassCredGuard\BypassCredGuard\lsa.cpp(48,12): warning C4477: “wprintf”: 格式字符串“%016llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“PWORD”
+  memory.cpp
+  privilege.cpp
+  process.cpp
+  utils.cpp
+C:\Users\whoami\source\repos\BypassCredGuard\BypassCredGuard\utils.cpp(15,12): warning C4477: “wprintf”: 格式字符串“%016llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“LPVOID”
+  正在生成代码...
+  BypassCredGuard.vcxproj -> C:\Users\whoami\source\repos\BypassCredGuard\x64\Debug\BypassCredGuard.exe
