@@ -20,7 +20,7 @@ BypassCredGuard.exe
 
 ### As a reminder
 
-In fact, as early as August 2020, Team Hydra ([@N4k3dTurtl3](https://twitter.com/N4k3dTurtl3)) published an article on the blog titled [《Bypassing Credential Guard》](https:// teamhydra.blog/2020/08/25/bypassing-credential-guard/) discusses this very clever and simple trick and briefly publishes a conceptual [CredGuard_PoC](https://gist.github .com/N4kedTurtle/8238f64d18932c7184faa2d0af2f1240), but it doesn't work on all Windows systems.
+In fact, as early as August 2020, Team Hydra ([@N4k3dTurtl3](https://twitter.com/N4k3dTurtl3)) published an article on the blog titled ["Bypassing Credential Guard"](https://teamhydra.blog/2020/08/25/bypassing-credential-guard/) discusses this very clever and simple trick and briefly publishes a conceptual [CredGuard_PoC](https://gist.github.com/N4kedTurtle/8238f64d18932c7184faa2d0af2f1240), but it doesn't work on all Windows systems.
 
 Team Hydra submitted a report to Microsoft about this issue and received the following response:
 
